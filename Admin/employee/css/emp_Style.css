@@ -1,0 +1,101 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body
+{
+    background: radial-gradient( #006d21,#004013);
+}
+h4{
+    font-size: 100%;
+}
+/*-------------------------Login---------------------*/
+
+#container-center
+{
+    background-color: #FFFFFF;
+    border-radius: 20px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.626);
+}
+.text-h
+{
+    color: #004013;
+    font-size: 60px;
+    font-weight:bolder;
+    text-align: center;
+    text-shadow:  0 3px 3px rgba(0, 0, 0, 0.155);
+}
+.text-button
+{
+    color: #FFFFFF;
+    font-size: 45px;
+    font-weight:bolder;
+    text-align: center;
+}
+.text-a
+{
+    color: #ffffff;
+    font-size: 18px;
+    font-weight:bolder;
+    text-align: center;
+    text-decoration: none;
+}
+.text-free
+{
+    color: #004013;
+    font-size: 20px;
+    font-weight:bolder;
+    text-align: center;
+}
+#InputEmail1
+{
+    background-color: #E2EAE9;
+    color: #004013;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.151);
+    border-style: hidden;
+    padding-left: 40px;
+    font-weight:600;
+    height:44px;
+    border-radius:12px;
+    width: 90%;
+    border: #004013 1px solid;
+}
+#InputPwd
+{
+    background-color: #E2EAE9;
+    color: #004013;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.151);
+    border-style: hidden;
+    padding-left: 40px;
+    font-weight:600;
+    height:45px;
+    border-radius:10px;
+    width: 90%;
+    border: #004013 1px solid;
+}
+input::placeholder {
+    color: #004013;
+    font-size: 13px;
+}
+
+.btn
+{
+    color: #FFFFFF;
+    font-size: 45px;
+    text-align: center;
+    background-color: #004013;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.355);
+    font-size: 17px;
+    font-weight: 600;
+    height:45px;
+    width: 90%;
+    border-radius:10px;
+    margin-bottom: 15px;
+}
+.btn:hover
+{
+    background-color: #011a0e;
+    scale: 1.05;
+}

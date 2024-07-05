@@ -1,0 +1,227 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body
+{
+    background: radial-gradient( #006d21,#004013);
+}
+h4{
+    font-size: 100%;
+}
+/*-------------------------Login---------------------*/
+
+#container-center
+{
+    background-color: #FFFFFF;
+    border-radius: 20px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.626);
+}
+.text-h
+{
+    color: #004013;
+    font-size: 60px;
+    font-weight:bolder;
+    text-align: center;
+    text-shadow:  0 3px 3px rgba(0, 0, 0, 0.155);
+}
+.text-button
+{
+    color: #FFFFFF;
+    font-size: 45px;
+    font-weight:bolder;
+    text-align: center;
+}
+.text-a
+{
+    color: #ffffff;
+    font-size: 18px;
+    font-weight:bolder;
+    text-align: center;
+    text-decoration: none;
+}
+.text-free
+{
+    color: #004013;
+    font-size: 20px;
+    font-weight:bolder;
+    text-align: center;
+}
+#docemail
+{
+    background-color: #E2EAE9;
+    color: #004013;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.151);
+    border-style: hidden;
+    padding-left: 40px;
+    font-weight:600;
+    height:44px;
+    border-radius:12px;
+    width: 90%;
+    border: #004013 1px solid;
+}
+#docpassword
+{
+    background-color: #E2EAE9;
+    color: #004013;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.151);
+    border-style: hidden;
+    padding-left: 40px;
+    font-weight:600;
+    height:45px;
+    border-radius:10px;
+    width: 90%;
+    border: #004013 1px solid;
+}
+input::placeholder {
+    color: #004013;
+    font-size: 13px;
+}
+
+.btn
+{
+    color: #FFFFFF;
+    font-size: 45px;
+    text-align: center;
+    background-color: #004013;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.355);
+    font-size: 17px;
+    font-weight: 600;
+    height:45px;
+    width: 90%;
+    border-radius:10px;
+    margin-bottom: 15px;
+}
+.btn:hover
+{
+    background-color: #011a0e;
+    scale: 1.05;
+}
+/*-----------------
+	28. Calendar
+-----------------------*/
+
+#calendar-events {
+    background-color: #fcfcfc;
+}
+.calendar-events {
+    border: 1px solid transparent;
+    cursor: move;
+    padding: 10px 15px;
+}
+.calendar-events:hover {
+	border-color: #e9e9e9;
+    background-color: #fff;
+}
+.calendar-events i {
+    margin-right: 8px;
+}
+.calendar {
+	float: left;
+	margin-bottom: 0;
+}
+.fc-toolbar.fc-header-toolbar {
+    margin-bottom: 1.5rem;
+}
+.none-border .modal-footer {
+	border-top: none;
+}
+.fc-toolbar h2 {
+	font-size: 18px;
+	font-weight: 600;
+	font-family: 'Roboto', sans-serif;
+	line-height: 30px;
+	text-transform: uppercase;
+}
+.fc-day-grid-event .fc-time {
+	font-family: 'Roboto', sans-serif;
+}
+.fc-day {
+	background: #fff;
+}
+.fc-toolbar .fc-state-active,
+.fc-toolbar .ui-state-active,
+.fc-toolbar button:focus,
+.fc-toolbar button:hover,
+.fc-toolbar .ui-state-hover {
+	z-index: 0;
+}
+.fc th.fc-widget-header {
+	background: #eeeeee;
+	font-size: 14px;
+	line-height: 20px;
+	padding: 10px 0;
+	text-transform: uppercase;
+}
+.fc-unthemed th,
+.fc-unthemed td,
+.fc-unthemed thead,
+.fc-unthemed tbody,
+.fc-unthemed .fc-divider,
+.fc-unthemed .fc-row,
+.fc-unthemed .fc-popover {
+	border-color: #f3f3f3;
+}
+.fc-basic-view .fc-day-number, 
+.fc-basic-view .fc-week-number {
+    padding: 2px 5px;
+}
+.fc-button {
+	background: #f1f1f1;
+	border: none;
+	color: #797979;
+	text-transform: capitalize;
+	box-shadow: none !important;
+	border-radius: 3px !important;
+	margin: 0 3px !important;
+	padding: 6px 12px !important;
+	height: auto !important;
+}
+.fc-text-arrow {
+	font-family: inherit;
+	font-size: 16px;
+}
+.fc-state-hover {
+	background: #f3f3f3;
+}
+.fc-state-highlight {
+	background: #f0f0f0;
+}
+.fc-state-down,
+.fc-state-active,
+.fc-state-disabled {
+	background-color: #20c0f3 !important;
+	color: #fff !important;
+	text-shadow: none !important;
+}
+.fc-cell-overlay {
+	background: #f0f0f0;
+}
+.fc-unthemed .fc-today {
+	background: #fff;
+}
+.fc-event {
+	border-radius: 2px;
+	border: none;
+	color: #fff !important;
+	cursor: move;
+	font-size: 13px;
+	margin: 1px 7px;
+	padding: 5px 5px;
+	text-align: center;
+}
+.fc-basic-view td.fc-week-number span {
+	padding-right: 8px;
+	font-weight: 700;
+	font-family: 'Roboto', sans-serif;
+}
+.fc-basic-view td.fc-day-number {
+	padding-right: 8px;
+	font-weight: 700;
+	font-family: 'Roboto', sans-serif;
+}
+.event-form .input-group .form-control {
+	height: 40px;
+}
