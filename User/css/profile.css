@@ -1,0 +1,82 @@
+
+
+/*---------------------------------------*/
+/*
+.home
+{
+    height: max-content;
+    padding: 0 80px 0 80px;
+}
+.set_main
+{
+    background-color: #00000042;
+    background-size: cover;
+    width:100%;
+    height: max-content;
+    border-radius: 25px;
+    padding: 3vw;
+    backdrop-filter: blur( 1px );
+    -webkit-backdrop-filter: blur( 1px );
+}
+.cardpro
+{
+    border-radius: 25px;
+    text-align: center;
+}
+
+.btn_ap
+{
+    margin-top: 0vw;
+    background-color:#004c32 ;
+    color: #ffffff;
+    width: 20vw;
+    height: 90px;
+    border-radius: 20px;
+    font-size:1.2vw;
+    font-weight:500;
+    border-width: 1px;
+}
+.btn_ap:hover
+{
+    
+    background-color:#38383860 ;
+    border-style:solid;
+    border-color: #1270B0;
+    scale: 1.01;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid #004c32;
+}
+.btn_ap a
+{
+    font-size: larger;
+    color: #ffffff;
+    text-decoration: none;
+}
+.apoinment-cover
+{
+    width: 100%;
+    height: max-content;
+    border-radius: 25px;
+    background-color: #ffffff;
+}
+.card_a
+{
+    background-color: #c5fff1;
+    width: 100%;
+    height: 70px;
+    margin: 10px 0 20px 0;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.pro_topic
+{
+    margin: 20px;
+    font-size: larger;
+    font-weight: 600;
+}
+*/
+

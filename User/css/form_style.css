@@ -1,0 +1,132 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body
+{
+    background-image: linear-gradient(to right, #1270B0 , #17A1FA);
+}
+/*
+COLOUR PLATES
+White- #FFFFFF
+       #F3F6F6
+       #E2EAE9
+       #17A1FA
+Blue - #1270B0 
+*/
+
+/*-------------------------Login---------------------*/
+
+#container-center
+{
+    background-color: #ffffff;
+    background-image: url("../../Assets/bg_patten.png");
+    background-size:cover;
+    border-radius:20px;
+}
+.text-h
+{
+    color: #1270B0;
+    font-size: 50px;
+    font-weight:bolder;
+    text-align: center;
+}
+.text-button
+{
+    color: #FFFFFF;
+    font-size: 45px;
+    font-weight:bolder;
+    text-align: center;
+}
+.text-a
+{
+    color: #ffffff;
+    font-size: 18px;
+    font-weight:bolder;
+    text-align: center;
+    text-decoration: none;
+}
+.text-b
+{
+    color: #17A1FA;
+    font-size: 18px;
+    font-weight:normal;
+    text-align: center;
+    text-decoration: none;
+}
+.text-free
+{
+    color: #1270B0;
+    font-size: 20px;
+    font-weight:bolder;
+    text-align: center;
+}
+#InputPwd, #InputEmail1, #InputCPwd, #InputName
+{
+    background-color: #E2EAE9;
+    color: #1270B0;
+    border-style: hidden;
+    padding-left: 40px;
+    font-weight:bold;
+    height:40px;
+    border-radius:12px;
+}
+#Gender, #Weight, #Bd
+{
+    background-color: #E2EAE9;
+    color: #1270B0;
+    border-style: hidden;
+    padding-left: 10px;
+    font-weight:bold;
+    height:40px;
+    border-radius:12px;
+}
+#Weight, #Bd
+{
+    margin-right: 35px;
+}
+#InputAddress, #InputAllegi
+{
+    background-color: #E2EAE9;
+    color: #1270B0;
+    border-style: hidden;
+    padding-left: 40px;
+    margin-left: 20px;
+    font-weight:bold;
+    height:40px;
+    border-radius:12px;
+    height: 50px;
+}
+input::placeholder {
+    color: #1270B0;
+    font-size: 13px;
+}
+.btn
+{
+    background-color: #17A1FA;
+    border-style: hidden;
+    font-size: 18px;
+    font-weight: lighter;
+    height:40px;
+    border-radius:12px;
+}
+.btn:hover
+{
+    background-color: #1270B0;
+}
+.btnsub
+{
+    background-color: #ffffff;
+    border-style: hidden;
+    font-size: 18px;
+    font-weight:lighter;
+    height:40px;
+    border-radius:12px;
+    border:#17A1FA 3px solid;
+}
+.btnsub:hover
+{
+    background-color: #E2EAE9;
+}

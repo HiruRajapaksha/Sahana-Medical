@@ -1,0 +1,49 @@
+/* Targeting the appointment modal specifically */
+#appointmentModal .modal-content {
+    background-color: #e8f5e9; /* Light green background for the entire form */
+    color: #2c3e50; /* Dark blue-grey color for text, ensures readability */
+    border-radius: 8px; /* Slightly rounded corners for the modal */
+}
+
+#appointmentModal .form-control {
+    background-color: #ffffff; /* White background for input fields for contrast */
+    border: 1px solid #a5d6a7; /* Soft green border to match the form */
+    color: #2c3e50; /* Dark blue-grey color for input text */
+}
+
+#appointmentModal .form-control:focus {
+    border-color: #81c784; /* Slightly brighter green border on focus */
+    box-shadow: 0 0 0 0.2rem rgba(129, 199, 132, 0.25); /* Subtle focus glow in green */
+}
+
+#appointmentModal .btn-success {
+    background-color: #4caf50; /* Vibrant green for the Save button */
+    border-color: #388e3c; /* Dark green border for button */
+}
+
+#appointmentModal .btn-danger {
+    background-color: #f44336; /* Standard red background for the Close button */
+    border-color: #d32f2f; /* Dark red border for button */
+}
+
+#appointmentModal .btn-success:hover {
+    background-color: #388e3c; /* Darker green on hover for Save button */
+    border-color: #2e7d32;
+}
+
+#appointmentModal .btn-danger:hover {
+    background-color: #d32f2f; /* Darker red on hover for Close button */
+    border-color: #c62828;
+}
+
+#appointmentModal textarea.form-control {
+    background-color: #c8e6c9; /* Very light green for text area */
+    color: #1b5e20; /* Dark green for text area font color */
+    border: 1px solid #a5d6a7; /* Soft green border matching the input fields */
+}
+
+/* Additional hover effects for inputs */
+#appointmentModal .form-control:hover {
+    background-color: #f1f8e9; /* Lighter green when hovering over inputs */
+    border-color: #81c784; /* Green border on hover */
+}

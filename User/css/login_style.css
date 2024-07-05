@@ -1,0 +1,94 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body
+{
+    background-image: linear-gradient(to right, #1270B0 , #17A1FA);
+}
+/*
+COLOUR PLATES
+White- #FFFFFF
+       #F3F6F6
+       #E2EAE9
+       #17A1FA
+Blue - #1270B0 
+*/
+
+/*-------------------------Login---------------------*/
+
+#container-center
+{
+    background-color: #ffffff;
+    background-image: url("../../../Assets/bg_patten.png");
+    background-size:cover;
+    border-radius:20px;
+}
+.text-h
+{
+    color: #004013;
+    font-size: 50px;
+    font-weight:bolder;
+    text-align: center;
+}
+.text-button
+{
+    color: #FFFFFF;
+    font-size: 45px;
+    font-weight:bolder;
+    text-align: center;
+}
+.text-a
+{
+    color: #ffffff;
+    font-size: 18px;
+    font-weight:bolder;
+    text-align: center;
+    text-decoration: none;
+}
+.text-free
+{
+    color: #004013;
+    font-size: 20px;
+    font-weight:bolder;
+    text-align: center;
+}
+#InputEmail1
+{
+    background-color: #E2EAE9;
+    color: #004013;
+    border-style: hidden;
+    padding-left: 40px;
+    font-weight:bold;
+    height:40px;
+    border-radius:12px;
+}
+#InputPwd
+{
+    background-color: #E2EAE9;
+    color: #004013;
+    border-style: hidden;
+    padding-left: 40px;
+    font-weight:bold;
+    height:40px;
+    border-radius:12px;
+}
+input::placeholder {
+    color: #004013;
+    font-size: 13px;
+}
+.btn
+{
+    background-color: #004013;
+    border-style: hidden;
+    font-size: 18px;
+    font-weight: bolder;
+    height:40px;
+    border-radius:12px;
+}
+.btn:hover
+{
+    background-color: #107a30;
+}
